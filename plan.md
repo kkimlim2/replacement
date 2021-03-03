@@ -55,6 +55,6 @@ parameter은 어떻게 정할 것인가
 그렇기에 일단 간단하게 하려고 함  
 - 일단 missing value을 기존의 값들 중에서 random하게 뽑아서 impute함 
 - missing value가 있는 col에 대해서 각각 regression model을 적용함 (y가 돌아가면서 바뀜)
-- 완성
+- 완성  
     근데 문제는 어떻게 검정하지? 이 regression model에 대해서 좀 알아보고 싶은데.. 이를테면 adjusted r 이 어떤 상탠지 보고 싶달까
 https://www.kaggle.com/shashankasubrahmanya/missing-data-imputation-using-regression
