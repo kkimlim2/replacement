@@ -29,7 +29,7 @@ iv)
 ### 1.2 잘 대체되였는지 확인할 방법: 전체적인 분석이 달라졌는지 중점으로 확인  
 i) 대푯값 비교: 기본적인 대푯값(mean,median, mode, variance)  
 ii) 시각적 비교: kde 함수
-iii) 수치적 비교: 편차 + 편향(MSE)  
+iii) MSE를 비교해보고 싶은데 그건 어떻게 할 수 있지? 
 
 ### 1.3 어떤 방법을 써서 대체할 것인가
 ####  1.3.1 clustering을 사용하는 것에 대한 의문들..
@@ -50,3 +50,11 @@ parameter은 어떻게 정할 것인가
 5. 회귀곡선
 6. 상관도
 
+#### 1.3.3 1차 시도: stochastic regression  
+왜냐하면 전문적 지식이 있는 사람들이라면 굳이 이 플랫폼을 쓸 필요가 있을까? 하는 의문이 들었음
+그렇기에 일단 간단하게 하려고 함  
+- 일단 missing value을 기존의 값들 중에서 random하게 뽑아서 impute함 
+- missing value가 있는 col에 대해서 각각 regression model을 적용함 (y가 돌아가면서 바뀜)
+- 완성
+    근데 문제는 어떻게 검정하지? 이 regression model에 대해서 좀 알아보고 싶은데.. 이를테면 adjusted r 이 어떤 상탠지 보고 싶달까
+https://www.kaggle.com/shashankasubrahmanya/missing-data-imputation-using-regression
