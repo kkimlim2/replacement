@@ -57,4 +57,5 @@ parameter은 어떻게 정할 것인가
 - missing value가 있는 col에 대해서 각각 regression model을 적용함 (y가 돌아가면서 바뀜)
 - 완성  
     근데 문제는 어떻게 검정하지? 이 regression model에 대해서 좀 알아보고 싶은데.. 이를테면 adjusted r 이 어떤 상탠지 보고 싶달까
-https://www.kaggle.com/shashankasubrahmanya/missing-data-imputation-using-regression
+https://www.kaggle.com/shashankasubrahmanya/missing-data-imputation-using-regression  
+- 근데 이럴꺼면 똑같이 dbscan에도 써도 되잖아?! 놀라운 깨달음..
