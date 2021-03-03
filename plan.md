@@ -1,3 +1,19 @@
+## 0. 데이터 분석
+### 점검해볼 사항:
+i) missing 값이 있는지?  
+ii) 변수들의 분포(1차원적)  
+iii) 변수들 간 correlation  
+iv) 또 있을지 생각해보자..  
+
+#### data set(bankrupt) 이용하려고 했으나 col이 너무 많아서 일단 보류  
+
+#### 그래서...
+i) 작은 데이터셋, numerical만  
+ii) 작은 데이터셋, time series, numerical만  
+iii) 작은 데이터셋, categorical, numerical  
+iv) 큰 데이터 셋 쭉..  
+
+
 ## 1. 결측치가 없는 데이터 셋에서 결측치를 만들어내고, 결과값 비교  
 ### 시도해볼 variation  
 i) col의 수 (1->2->4..)  
